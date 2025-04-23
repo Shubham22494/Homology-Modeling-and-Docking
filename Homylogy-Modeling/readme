@@ -1,1 +1,91 @@
+🧬 Homology Modeling and Structural Analysis of Protein P25942
+📌 Project Overview
+This project focuses on the homology modeling of the Tumor necrosis factor receptor superfamily member 5 (P25942) using MODELLER, followed by structural evaluation of three point mutations. The stability and conformational impact of mutations were analyzed using DOPE scores and RMSD, and visualized through Chimera.
 
+🛠️ Tools & Technologies
+MODELLER – For homology modeling
+
+Chimera – For 3D visualization and mutation mapping
+
+BLAST – For template identification
+
+Python – For scripting and automation
+
+CASTp – For active site prediction (used in downstream docking)
+
+Conda – Environment management
+
+🧪 Methodology
+🔹 1. Template Identification
+Used BLAST to find 3 suitable templates with high sequence identity and coverage.
+
+Selected the best template based on alignment metrics.
+
+🔹 2. Mutation Introduction
+Introduced 3 point mutations:
+
+P → A at position 227
+
+I → V at position 208
+
+T → M at position 112
+
+🔹 3. Model Generation
+Generated 4 models (wild-type + 3 mutants) using MODELLER.
+
+Selected models with the lowest molpdf score for evaluation.
+
+🔹 4. Structural Analysis
+DOPE Score calculated for stability:
+
+Wild-type: -17296.05
+
+Mutation1: -16268.22
+
+Mutation2: -16623.35
+
+Mutation3: -17123.97
+
+RMSD calculated for deviation from wild-type:
+
+Mutation1: 1.057 Å
+
+Mutation2: 0.778 Å
+
+Mutation3: 0.937 Å
+
+🔹 5. Visualization
+Rendered 40+ 3D structural views in Chimera, highlighting:
+
+H-bonds
+
+Mutation positions
+
+Template overlays
+
+Structural overlaps
+
+📊 Key Insights
+Mutation 3 (T → M) was the most stable among the mutants.
+
+Mutation 2 (I → V) showed the least structural deviation.
+
+Mutation 1 (P → A) had the most destabilizing effect.
+
+📚 References
+Smith et al. (2020) – Proline mutations and stability
+
+Johnson & Lee (2019) – Hydrophobic core stability
+
+Zhang & Wang (2021) – Amino acid substitution effects
+
+Brown et al. (2018) – Structural impacts of mutations
+
+🧠 Learning Outcomes
+Gained hands-on experience in template-based modeling.
+
+Understood the structural impact of single-residue mutations.
+
+Applied biophysical scoring functions (DOPE & RMSD) for structural assessment.
+
+Enhanced skills in protein visualization and annotation using Chimera.

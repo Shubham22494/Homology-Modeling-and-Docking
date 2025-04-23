@@ -1,1 +1,78 @@
+Molecular Docking Analysis of P25942 Protein with Drug Molecules
+Overview
+This project investigates the molecular docking of five selected drug molecules with the Tumor Necrosis Factor Receptor Superfamily Member 5 (UniProt ID: P25942), also known as CD40. The study includes docking with both the wild-type and three mutated protein models to understand the impact of mutations on binding affinity.
 
+Objectives
+Identify potential drug molecules targeting pathways related to P25942.
+
+Perform ligand and protein preparation for docking.
+
+Conduct docking using AutoDock Vina.
+
+Analyze and compare binding affinities across protein variants.
+
+Determine the most promising drug candidate based on binding performance.
+
+Selected Ligands
+
+PubChem CID	Compound Name	Key Feature
+11799694	Bisnorcymserine	Reversible AChE inhibitor
+137517259	2-Chlorobenzyl-piperazine derivative	Dual-binding site AChE inhibitor
+137517260	Naphthalene-sulfonamide derivative	Dual AChE and BChE inhibitor
+137517262	1H-Pyrazol-3-yl derivative A	CNS-active AChE inhibitor
+137517264	Benzimidazole-imidazopyridine hybrid	Multi-target neuroprotective agent
+Methods
+1. Ligand & Protein Preparation
+Ligands downloaded in .sdf format and converted to .pdbqt.
+
+Protein structures (wild-type and 3 mutants) cleaned, water removed, and hydrogens added.
+
+Active sites identified using CASTp server.
+
+2. Docking Parameters
+Tool: AutoDock Vina
+
+Grid box center: (-124.154, -3.109, 68.946)
+
+Grid size: (58, 74, 66)
+
+Log file: log.txt
+
+3. Protein Models
+Wild-Type: P25942.B99990001
+
+Mutant 1: MUT1.B99990003
+
+Mutant 2: MUT2.B99990002
+
+Mutant 3: MUT3.B99990003
+
+Results
+Binding Affinity Summary
+Strongest Binder: Lig3 (Naphthalene-sulfonamide derivative)
+
+Weakest Binder: Lig2 (2-Chlorobenzyl-piperazine derivative)
+
+Mutant Impact:
+
+Mut1 and Mut3 enhance Lig1 binding.
+
+Mut3 negatively impacts Lig2 binding.
+
+Mut2 improves Lig5 binding.
+
+Visualizations
+Docked structures visualized for each ligand-protein combination.
+
+Bar graphs and density plots used to compare binding energies.
+
+Conclusion
+Lig3 demonstrates the strongest and most consistent binding across wild-type and Mut2, making it the most promising candidate. Mutations influence ligand affinity in a drug-specific manner, emphasizing the need to consider variant-specific interactions in drug design.
+
+References
+Cited PubMed and PMC articles associated with ligand activities.
+
+External tools: AutoDock Vina, CASTp server
+
+Supplementary Material
+Docking Files & Screenshots (Google Drive)

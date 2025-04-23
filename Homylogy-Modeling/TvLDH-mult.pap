@@ -1,0 +1,34 @@
+ _aln.pos         10        20        30        40        50        60
+6faxR     --------------------EPPTACREKQYLINSQCCSLCQPGQKLVSDCTEFTETECLPCGESEFL 
+7p3iA     ----------------------PTACREKQYLINSQCCSLCQPGQKLVSDCTEFTETECLPCGESEFL 
+8yx1C     ------------------------ACREKQYLINSQCCSLCQPGQKLVSDCTEFTETECLPCGESEFL 
+P25942    MVRLPLQCVLWGCLLTAVHPEPPTACREKQYLINSQCCSLCQPGQKLVSDCTEFTETECLPCGESEFL 
+ _consrvd                         ********************************************
+
+ _aln.p   70        80        90       100       110       120       130
+6faxR     DTWNRETHCHQHKYCDPNLGLRVQQKGTSETDTICTCEEGWHCTSEACESCV---------------- 
+7p3iA     DTWNRETHCHQHKYCDPNLGLRVQQKGTSETDTICTCEEGWHCTSEACESCVLHRSCSPGFGVKQIAT 
+8yx1C     DTWNRETHCHQHKYCDPNLGLRVQQKGTSETDTICTCEEGWHCTSEACESCVLHRSCSPGFGVKQIAT 
+P25942    DTWNRETHCHQHKYCDPNLGLRVQQKGTSETDTICTCEEGWHCTSEACESCVLHRSCSPGFGVKQIAT 
+ _consrvd ****************************************************
+
+ _aln.pos  140       150       160       170       180       190       200
+6faxR     -------------------------------------------------------------------- 
+7p3iA     GVSDTICEPCPVGFFSNVSSAFEKCHPWTSCETKDLVVQQAGTNKTDVVC----------------G- 
+8yx1C     GVSDTICEPCPVGFFSNVSSAFEKCHPWTSCET--LVVQQAGTNKTDVVC------------------ 
+P25942    GVSDTICEPCPVGFFSNVSSAFEKCHPWTSCETKDLVVQQAGTNKTDVVCGPQDRLRALVVIPIIFGI 
+ _consrvd
+
+ _aln.pos    210       220       230       240       250       260       270
+6faxR     -------------------------------------------------------------------- 
+7p3iA     -----------------P-----------------Q------------------D------------- 
+8yx1C     -------------------------------------------------------------------- 
+P25942    LFAILLVLVFIKKVAKKPTNKAPHPKQEPQEINFPDDLPGSNTAAPVQETLHGCQPVTQEDGKESRIS 
+ _consrvd
+
+ _aln.pos
+6faxR     ----- 
+7p3iA     ----- 
+8yx1C     ----- 
+P25942    VQERQ 
+ _consrvd
